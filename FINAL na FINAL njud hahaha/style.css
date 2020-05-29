@@ -1,0 +1,124 @@
+ /*ID*/ 
+   #Uname{
+    margin-top: 2px;
+    font-family: Cambria, Cochin, Georgia, sans-serif;
+    font-weight: bold;
+    color: black;
+  }
+
+  #Pass{
+    margin-top: 2px;
+    font-family: Cambria, Cochin, Georgia, sans-serif;
+    font-weight: bold;
+    color: black;
+  }
+
+  #image{
+    padding-top: 30px;
+    padding-left: 25px;
+    border-color: white;
+    height: 8cm;
+    width: 12cm;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-bottom: 5px;
+  }
+  /*CLASS*/
+
+  .bgimage{
+    background:url(img/bgimage3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height:20cm;
+  }
+  
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    font-family: Cambria, Cochin, Georgia, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: whitesmoke;
+  }
+  .admincontainer {
+    align-items: center;
+    height: 350px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+    position: static;
+    border: 3px solid whitesmoke;
+  }
+  .finalcontainer {
+    align-items: center;
+    height: 400px;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: static;
+  }
+  .usercontainer {
+    align-items: center;
+    height: 350px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+    position: static;
+    border: 3px solid whitesmoke;
+  }
+
+  .p {
+    margin-top: 80px;
+    margin-left: 350px;
+    height: 20px;
+    font-family: Cambria, Cochin, Georgia, sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+  }
+
+  .txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+  }
+
+  .btn{
+    height: 35px;
+    width: 130px;
+    font-family: Cambria, Cochin, Georgia, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 300px;
+    background-color: cornsilk;
+  }
+  .btn1{
+    height: 50px;
+    font-family: Cambria, Cochin, Georgia, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 50px;
+    background-color: cornsilk;
+  }
+  .btn2{
+    height: 50px;
+    font-family: Cambria, Cochin, Georgia, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 50px;  
+    background-color: cornsilk;
+  }
+
+  .row{
+    justify-content: right;
+    margin-top: 10px;
+  }
+  
+

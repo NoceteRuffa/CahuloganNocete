@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMIN</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="bgimage">
+    <h1 class="center">ADMIN Log-In</h1>
+   
+    <div class="admincontainer">
+    <div class="p">
+        <p id="txt"></p>
+        <br>
+        <br>
+        USERNAME: <input id="Uname" size="50">
+        <br>
+        <br>
+        PASSWORD: <input type="password" id="Pass" size="50">
+        <br>
+        <br>
+        <button type="button" class="btn btn-outline-success" onclick="myFunction()">LOG IN</button>
+    </div>
+    
+    <script>
+    function myFunction() {
+      var Username, Password, text;
+    
+      
+      Username = document.getElementById("Uname").value;
+      Password = document.getElementById("Pass").value;
+    
+      
+      if ((Username === "admin") || (Password === "admin")) {
+        text = "IT WORKS!";
+      } else {
+        alert("Incorrect Username or Password!")
+      }
+      document.getElementById("txt").innerHTML = text;
+    }
+    </script>
+  
+    </div>
+   </div>
+</body>
